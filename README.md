@@ -14,7 +14,7 @@ Prior to installing and configuring Visual Studio Code, you will want to install
 
 <br />
 
-## Install Visual Studio Code 
+## Install Visual Studio Code
 ---
 Download and install the binary for your operating system: https://code.visualstudio.com/
 
@@ -30,7 +30,7 @@ Download and install the binary for your operating system: https://code.visualst
 ---
 ### CloudFormation Extension (https://github.com/aws-scripting-guy/cform-VSCode)
 
->The CloudFormation extension for Visual Studio Code simplifies the authoring of CloudFormation templates in JSON or YAML by automating the generation of a basic template structure, as well as providing boilerplate resource definitions based on each unique CloudFormation resource type.  The CloudFormation extension has a direct dependency on the RedHat YAML linting extension. However, as a part of the CloudFormation extension installation, the RedHat YAML extension will be installed during the installation of the CloudFormation extension. . 
+>The CloudFormation extension for Visual Studio Code simplifies the authoring of CloudFormation templates in JSON or YAML by automating the generation of a basic template structure, as well as providing boilerplate resource definitions based on each unique CloudFormation resource type.  The CloudFormation extension has a direct dependency on the RedHat YAML linting extension. However, as a part of the CloudFormation extension installation, the RedHat YAML extension will be installed during the installation of the CloudFormation extension. .
 >
 >1. Install the extension
 >2. Create a new YAML or JSON file
@@ -45,7 +45,7 @@ Download and install the binary for your operating system: https://code.visualst
 >>
 >>1. Open User Settings by pushing "`ctrl + ,`" on Windows, or "`cmd + ,`" on Mac.
 >>2. In the top right corner click the `{}` icon.
->>3. Paste the following text into the json file to remove errors associated with the CloudFormation Intrinsic function references: 
+>>3. Paste the following text into the json file to remove errors associated with the CloudFormation Intrinsic function references:
 >>```
 >>// Custom tags for the parser to use
 >>"yaml.customTags": [
@@ -121,3 +121,17 @@ Indent Rainbow (https://marketplace.visualstudio.com/items?itemName=oderwat.inde
 >A simple extension to make indentation more readable
 >
 >![](images/indent-rainbow.jpg)
+
+<br />
+
+AWS Toolkit (https://aws.amazon.com/visualstudiocode/)
+> The AWS Toolkit for Visual Studio Code is an open source plug-in for the Visual Studio Code that makes it easier to create, debug, and deploy applications on Amazon Web Services.
+>
+>![](images/aws-toolkit.png)
+
+<br />
+
+AWS Actions (https://marketplace.visualstudio.com/items?itemName=PlethoraOfHate.aws-actions)
+>This is a pretty straightforward extension. It adds autocomplete to yaml/json files of all the AWS "actions" that are available as of 09.18.2018
+>
+>![](images/aws-actions.png)
