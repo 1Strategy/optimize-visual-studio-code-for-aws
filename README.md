@@ -130,8 +130,3 @@ AWS Toolkit (https://aws.amazon.com/visualstudiocode/)
 >![](images/aws-toolkit.png)
 
 <br />
-
-AWS Actions (https://marketplace.visualstudio.com/items?itemName=PlethoraOfHate.aws-actions)
->This is a pretty straightforward extension. It adds autocomplete to yaml/json files of all the AWS "actions" that are available as of 09.18.2018
->
->![](images/aws-actions.png)
